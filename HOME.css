@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(to bottom, #e6d098, #f1dfab);
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 160px;
+}
+.menu-item {
+  background-color: #4cd1db;
+  color: black;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 37px;
+  border-radius: 50px;
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none; /* สำหรับลิงก์ให้ไม่มีขีดเส้นใต้ */
+  display: block; /* ให้ลิงก์เต็มพื้นที่ */
+}
+.menu-item:hover {
+  background-color: #3bb1c1; /* สีเปลี่ยนตอน hover เพื่อแสดงว่าคลิกได้ */
+}
